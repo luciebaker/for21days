@@ -1,0 +1,18 @@
+.page-footer {
+    text-align: center;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292929;
+    color: #fff;
+}
+
+.page-footer p {
+    margin-bottom: 0;
+}
+
+.page-footer span,
+.page-footer a {
+    color: $mainColor;
+}
