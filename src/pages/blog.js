@@ -1,11 +1,19 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
-const Blog = () => {
+const BlogIndex = () => {
     return (
+        <Layout>
         <div>
-            <h2>This is the main blog page </h2>
+            <h2> This is the Blog indexpage </h2>
         </div>
+        </Layout>
+        
     )
 }
 
-export default Blog
+export default BlogIndex
+
+
+
